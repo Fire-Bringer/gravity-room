@@ -1,0 +1,27 @@
+.intro{
+  min-height: 50vh;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.intro p{
+  width: 700px;
+  max-width: 100%;
+  text-align: center;
+}
+.intro button{
+  background-color: #FD0003;
+  padding: 10px 50px;
+  border: 1px solid #591F1D;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Poppins;
+  font-weight: 500;
+}
