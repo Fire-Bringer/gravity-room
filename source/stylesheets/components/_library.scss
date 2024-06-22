@@ -10,3 +10,12 @@
   height: 500px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px){
+  .library{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .library img{
+      height: 300px;
+  }
+}

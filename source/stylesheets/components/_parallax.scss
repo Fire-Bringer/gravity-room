@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .banner{
   height: 100vh;
@@ -16,31 +16,33 @@
   transition: 0.1s;
 }
 .banner .bg-1{
-  background-image: image-url('parallax/0.png');
+  background-image: image-url('parallax/space-hero.png');
 }
 .banner .bg-2{
-  background-image: image-url('parallax/1.png');
+  background-image: image-url('parallax/earth-cropped.png');
 }
 .banner .bg-3{
-  background-image: image-url('parallax/2.png');
+  background-image: image-url('parallax/mountain-test.png');
+  bottom: 120px;
 }
 .banner .bg-4{
-  background-image: image-url('parallax/3.png');
+  background-image: image-url('parallax/ocean-wave.png');
+  bottom: 50px;
 }
 .banner .bg-5{
-  background-image: image-url('parallax/4.png');
+  background-image: image-url('test-parallax/4.png');
 }
 .banner .bg-6{
-  background-image: image-url('parallax/5.png');
+  background-image: image-url('test-parallax/5.png');
 }
 .banner .bg-7{
-  background-image: image-url('parallax/6.png');
+  background-image: image-url('test-parallax/6.png');
 }
 .banner .bg-8{
-  background-image: image-url('parallax/7.png');
+  background-image: image-url('test-parallax/7.png');
 }
 .banner .bg-9{
-  background-image: image-url('parallax/8.png');
+  background-image: image-url('test-parallax/8.png');
 }
 .banner  h1{
   position: absolute;
@@ -48,7 +50,15 @@
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 11rem;
-  font-family: 'Pacifico', cursive;
+  font-size: 10rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
   color: #fff;
+}
+
+@media screen and (max-width: 768px){
+  .banner h1{
+      font-size: 5rem;
+  }
 }
