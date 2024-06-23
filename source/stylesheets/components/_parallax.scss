@@ -30,27 +30,36 @@
   bottom: 50px;
 }
 .banner .bg-5{
-  background-image: image-url('test-parallax/4.png');
+  background-image: image-url('parallax/left-hill.png');
+  top: 100px;
 }
 .banner .bg-6{
-  background-image: image-url('test-parallax/5.png');
+  background-image: image-url('parallax/right-hill.png');
+  top: 310px;
 }
 .banner .bg-7{
-  background-image: image-url('test-parallax/6.png');
+  background-image: image-url('parallax/sunset-hill.png');
+  background-size: unset;
+  top: 450px;
 }
 .banner .bg-8{
-  background-image: image-url('test-parallax/7.png');
+  background-image: image-url('parallax/car-hill.png');
+  background-size: unset;
+  top: 280px;
+  left: -140px;
 }
 .banner .bg-9{
-  background-image: image-url('test-parallax/8.png');
+  background-image: image-url('parallax/palm-foreground.png');
+  background-size: unset;
+  top: 50px;
 }
 .banner  h1{
   position: absolute;
-  top: 20%;
+  top: 5%;
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: 10rem;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: italic;
