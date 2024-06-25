@@ -75,6 +75,30 @@
     background-image: image-url('parallax/palm-foreground.png');
   }
 }
+@media screen and (max-width: 1440px){
+  .banner .bg-3{
+    background-image: image-url('parallax/mountain-test.png');
+    bottom: 70px;
+  }
+  .banner .bg-4{
+    top: 190px;
+  }
+  .banner .bg-5{
+    background-image: image-url('parallax/left-hill.png');
+    top: 140px;
+  }
+  .banner .bg-6{
+    top: 250px;
+  }
+  .banner .bg-7{
+    background-image: image-url('parallax/sunset-hill-1440.png');
+    top: 280px;
+  }
+  .banner .bg-8{
+    background-image: image-url('parallax/car-hill-900.png');
+    bottom: 60px;
+  }
+}
 @media screen and (max-width: 1200px){
   .banner .bg-8 {
     background-image: image-url('parallax/car-hill-cut2.png');
