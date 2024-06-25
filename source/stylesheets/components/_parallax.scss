@@ -113,34 +113,34 @@
     background-image: image-url('parallax/car-hill-900.png');
     bottom: 0;
   }
-  .banner .bg-9{
-    background-image: image-url('parallax/palm-foreground-1024.png');
-  }
 }
 @media screen and (max-width: 768px){
   .banner h1{
       font-size: 3rem;
   }
+  .banner .bg-8 {
+    background-image: image-url('parallax/car-hill-700.png');
+  }
 }
 @media screen and (max-width: 425px){
   .banner .bg-3 {
-    bottom: 200px;
+    bottom: 50px;
   }
   .banner .bg-4 {
-    bottom: -160px;
+    display: none;
   }
   .banner .bg-5 {
-    top: -10px;
+    top: 70px;
   }
   .banner .bg-6 {
     top: 220px;
   }
   .banner .bg-7 {
-    display: none;
+    top: 160px;
   }
   .banner .bg-8 {
     background-image: image-url('parallax/car-hill-300.png');
-    bottom: 20px;
+    bottom: 140px;
   }
   .banner .bg-9{
     background-repeat: no-repeat;
