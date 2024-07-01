@@ -152,3 +152,9 @@
     min-height: 100vh;
   }
 }
+
+@media all and (max-width: 426px) {
+  .banner {
+    height: 90vh;
+  }
+}
