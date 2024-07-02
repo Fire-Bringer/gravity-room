@@ -29,4 +29,5 @@ window.addEventListener("scroll", (event) => {
             tab.classList.remove('active');
         }
     })
-});  
+});
+

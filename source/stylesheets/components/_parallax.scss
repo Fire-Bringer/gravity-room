@@ -15,6 +15,7 @@
   background-position: center bottom;
   transition: 0.1s;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 .banner .bg-1{
   background-image: image-url('parallax/space-hero.png');
@@ -25,7 +26,7 @@
 }
 .banner .bg-3{
   background-image: image-url('parallax/mountain-range-2560.png');
-  bottom: 200px;
+  bottom: 100px;
   background-size: unset;
 }
 .banner .bg-4{
@@ -74,28 +75,40 @@
   .banner .bg-9 {
     background-image: image-url('parallax/palm-foreground.png');
   }
+  .banner .bg-8{
+    background-image: image-url('parallax/car-hill-900.png');
+  }
+  .banner .bg-7{
+    background-image: image-url('parallax/sunset-hill-1440.png');
+  }
+  .banner .bg-5{
+    background-image: image-url('parallax/left-hill.png');
+  }
+  .banner .bg-4 {
+    display: none;
+  }
+  .banner .bg-3{
+    background-image: image-url('parallax/mountain-test.png');
+    overflow: hidden;
+  }
 }
 @media screen and (max-width: 1440px){
   .banner .bg-3{
-    background-image: image-url('parallax/mountain-test.png');
-    bottom: 70px;
+    bottom: 0px;
   }
   .banner .bg-4{
     top: 190px;
   }
   .banner .bg-5{
-    background-image: image-url('parallax/left-hill.png');
     top: 140px;
   }
   .banner .bg-6{
     top: 250px;
   }
   .banner .bg-7{
-    background-image: image-url('parallax/sunset-hill-1440.png');
     top: 280px;
   }
   .banner .bg-8{
-    background-image: image-url('parallax/car-hill-900.png');
     bottom: 60px;
   }
 }
@@ -125,9 +138,6 @@
 @media screen and (max-width: 425px){
   .banner .bg-3 {
     bottom: 50px;
-  }
-  .banner .bg-4 {
-    display: none;
   }
   .banner .bg-5 {
     top: 70px;
