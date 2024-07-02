@@ -36,7 +36,7 @@ position:absolute;
 //right:0;
 //bottom:0;
 width:100%;
-height:500%;
+height:600%;
 display:block;
 }
 
@@ -56,4 +56,10 @@ animation:move-twink-back 200s linear infinite;
   z-index:2;
   opacity: .4;
   animation:move-clouds-back 200s linear infinite;
+}
+
+@media screen and (max-width: 426px){
+  .stars, .twinkling, .clouds {
+    height: 890%
+  }
 }
