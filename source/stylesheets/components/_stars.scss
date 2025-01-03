@@ -30,14 +30,15 @@
 }
 
 .stars, .twinkling, .clouds {
-position:absolute;
-//top:0;
-//left:0;
-//right:0;
-//bottom:0;
-width:100%;
-height:600%;
-display:block;
+  position:absolute;
+  //top:0;
+  //left:0;
+  //right:0;
+  //bottom:0;
+  width:100%;
+  height:600%;
+  display:block;
+  z-index: 0;
 }
 
 .stars {
