@@ -1,6 +1,6 @@
 .portfolio-container{
   color: #eee;
-  padding: 5rem 0rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,10 +10,10 @@
 .portfolio-card{
   width: 90%;
   display: flex;
-  padding: 2rem 0;
+  padding: 5rem 0;
+  gap: 5rem;
 }
 .portfolio-text{
-  padding: 0 5rem;
   width: 50%;
 }
 .portfolio-text h2, p {
@@ -64,7 +64,7 @@
     height: 169px;
   }
   .portfolio-text {
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
 }
 @media screen and (max-width: 321px){
