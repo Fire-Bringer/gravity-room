@@ -18,7 +18,9 @@
   margin-right: 10vw;
 }
 .embed-spotify{
-  display: none;
+  gap: 1rem;
+  flex-direction: column;
+  display: flex
 }
 #eapps-instagram-feed-1 {
   margin-bottom: 5rem;
@@ -30,11 +32,6 @@
   }
   .library img{
       height: 300px;
-  }
-  .embed-spotify{
-    gap: 1rem;
-    flex-direction: column;
-    display: flex
   }
 }
 @media screen and (max-width: 426px){

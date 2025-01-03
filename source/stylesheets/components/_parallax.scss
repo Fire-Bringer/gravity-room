@@ -134,6 +134,9 @@
   }
 }
 @media screen and (max-width: 426px){
+  .banner{
+    height: 95vh;
+  }
   .banner .bg-3 {
     bottom: -110px;
   }
@@ -160,4 +163,3 @@
     min-height: 100vh;
   }
 }
-
