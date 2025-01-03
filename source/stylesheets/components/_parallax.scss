@@ -141,10 +141,10 @@
 }
 @media screen and (max-width: 426px){
   .banner{
-    height: 95vh;
+    height: 80vh;
   }
   .banner .bg-3 {
-    bottom: -110px;
+    display: none;
   }
   .banner .bg-5 {
     top: -20px;
@@ -153,11 +153,15 @@
     top: 180px;
   }
   .banner .bg-7 {
-    top: 250px;
+    top: 130px;
+    background-size: cover;
   }
   .banner .bg-8 {
     background-image: image-url('parallax/car-hill-300.png');
-    bottom: 140px;
+    bottom: 70px;
+  }
+  .banner .bg-9{
+    top: 0px;
   }
   .banner h1{
     font-size: 2rem;
