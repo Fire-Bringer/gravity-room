@@ -20,6 +20,12 @@
   margin-left: 10vw;
   margin-right: 10vw;
 }
+.embed-spotify{
+  display: none;
+}
+#eapps-instagram-feed-1 {
+  margin-bottom: 5rem;
+}
 
 @media screen and (max-width: 768px){
   .library{
@@ -27,6 +33,9 @@
   }
   .library img{
       height: 300px;
+  }
+  .embed-spotify{
+    display: block;
   }
 }
 @media screen and (max-width: 426px){
