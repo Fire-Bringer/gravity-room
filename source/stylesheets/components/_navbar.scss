@@ -5,7 +5,7 @@ nav {
   height: 7vh;
   position: fixed;
   top: 0;
-  z-index: 30;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
 }
@@ -44,6 +44,7 @@ nav h3 {
   border-radius: 0 0 0 20px;
   border-left: 1px solid #F0EAD6;
   border-bottom: 1px solid #F0EAD6;
+  z-index: 99;
 }
 .desktop-menu, .mobile-menu li a {
   text-decoration: none;
