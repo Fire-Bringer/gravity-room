@@ -1,5 +1,5 @@
 nav {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #F0EAD6;
   background-color: black;
   width: 100vw;
   height: 5vh;
@@ -10,7 +10,7 @@ nav {
   justify-content: space-between;
 }
 nav h3 {
-  color: white;
+  color: #F0EAD6;
   margin-bottom: 0;
   align-self: center;
   margin-left: 2vw;
@@ -42,12 +42,12 @@ nav h3 {
   padding: 1rem;
   display: none;
   border-radius: 0 0 0 20px;
-  border-left: 1px solid white;
-  border-bottom: 1px solid white;
+  border-left: 1px solid #F0EAD6;
+  border-bottom: 1px solid #F0EAD6;
 }
 .desktop-menu, .mobile-menu li a {
   text-decoration: none;
-  color: white;
+  color: #F0EAD6;
   font-family: "Kiwi Maru", serif;
   font-weight: 400;
   font-style: normal;
@@ -83,7 +83,7 @@ nav button {
     display: block;
     background-color: transparent;
     border: none;
-    color: white;
+    color: #F0EAD6;
     cursor: pointer;
     margin-right: 2vw;
     font-size: 1.5rem;
