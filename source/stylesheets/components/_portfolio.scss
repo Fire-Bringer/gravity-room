@@ -17,8 +17,7 @@
   width: 50%;
 }
 .portfolio-text h2, p {
-  font-family: "Space Grotesk", serif;
-  font-optical-sizing: auto;
+  font-family: "Kiwi Maru", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -43,6 +42,8 @@
   .portfolio-card{
     flex-direction: column-reverse;
     align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
   }
   .reverse{
     flex-direction: column;
