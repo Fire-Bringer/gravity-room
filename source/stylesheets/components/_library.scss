@@ -5,6 +5,8 @@
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
   color: #fff;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 .library img{
   width: 90%;
@@ -13,6 +15,10 @@
 }
 #eapps-instagram-feed-1 {
   margin-bottom: 10rem;
+}
+.embed-section {
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 @media screen and (max-width: 768px){
