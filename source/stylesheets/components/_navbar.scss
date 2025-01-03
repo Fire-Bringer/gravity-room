@@ -1,7 +1,7 @@
 nav {
   border-bottom: 1px solid white;
   background-color: black;
-  width: 100%;
+  width: 100vw;
   height: 5vh;
   position: fixed;
   top: 0;
@@ -19,7 +19,7 @@ nav h3 {
   font-weight: 400;
   font-style: normal;
 }
-nav ul {
+.desktop-menu {
   width: 30%;
   height: 100%;
   display: flex;
@@ -28,7 +28,25 @@ nav ul {
   align-items: center;
   margin-right: 2vw;
 }
-nav ul li a {
+.mobile-menu {
+  margin-top: 5vh;
+  width: 50vw;
+  height: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  padding: 1rem;
+  display: none;
+  border-radius: 0 0 0 20px;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.desktop-menu, .mobile-menu li a {
   text-decoration: none;
   color: white;
   font-family: "Space Grotesk", serif;
@@ -41,35 +59,35 @@ nav button {
 }
 
 @media screen and (max-width: 1230px){
-  nav ul {
+  .desktop-menu {
     width: 35%;
   }
 }
 @media screen and (max-width: 1024px){
-  nav ul {
+  .desktop-menu {
     width: 40%;
   }
 }
 @media screen and (max-width: 900px){
-  nav ul {
+  .desktop-menu {
     width: 50%;
   }
 }
 /* Mobile-specific styles */
 @media screen and (max-width: 768px) {
-  nav ul {
+  .desktop-menu {
     display: none;
   }
-  nav h3 {
-    margin-left: 1vw;
+  .mobile-menu {
+    display: block;
   }
-
   nav button {
     display: block;
     background-color: transparent;
     border: none;
     color: white;
     cursor: pointer;
-    margin-right: 1vw;
+    margin-right: 2vw;
+    font-size: 1.5rem;
   }
 }

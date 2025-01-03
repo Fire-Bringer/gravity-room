@@ -33,6 +33,21 @@ window.addEventListener("scroll", (event) => {
 
 // Mobile Nav Trigger
 function toggleMenu() {
-  var menu = document.querySelector('nav ul');
+  var menu = document.querySelector('.mobile-menu');
+  var buttonIcon = document.querySelector('nav button i'); // Select the button's FontAwesome icon
+
   menu.style.display = menu.style.display === 'none' ? 'flex' : 'none';
+
+  if (buttonIcon.classList.contains('fa-bars')) {
+    buttonIcon.classList.replace('fa-bars', 'fa-x'); // Replace classes using classList
+  } else {
+    buttonIcon.classList.replace('fa-x', 'fa-bars');
+  }
 }
+
+// Add an event listener to all links within the mobile menu
+document.querySelectorAll('.mobile-menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    toggleMenu(); // Close the menu when a link is clicked
+  });
+});
