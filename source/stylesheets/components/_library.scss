@@ -2,7 +2,7 @@
   margin-top: 50px;
   margin-bottom: 5rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   text-align: center;
   color: #F0EAD6;
   margin-left: 10vw;
@@ -12,6 +12,7 @@
   width: 90%;
   height: 500px;
   object-fit: cover;
+  margin-bottom: 8px;
 }
 .embed-section {
   margin-left: 10vw;
