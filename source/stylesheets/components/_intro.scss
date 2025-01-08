@@ -39,10 +39,34 @@
   font-family: "Kiwi Maru", serif;
   font-weight: 700;
   font-style: normal;
-  margin-top: 16px;
   z-index: 30;
 }
 .intro button a{
   text-decoration: none;
   color: #F0EAD6;
+}
+.intro-social-div{
+  display: flex;
+}
+.intro-social-ul{
+  z-index: 30;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2rem;
+  width: 100%;
+  gap: 4rem;
+  list-style-type: none;
+}
+.fa-brands{
+  color: #F0EAD6;
+}
+ul{
+  padding: 0;
+}
+
+@media screen and (max-width: 426px){
+  .intro-social-ul{
+    gap: 2rem;
+  }
 }
